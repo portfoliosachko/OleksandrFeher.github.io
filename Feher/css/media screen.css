@@ -1,0 +1,24 @@
+@media screen and (max-width: 865px) {
+    .landing {
+        display: block;
+        float:left;
+        padding-left: 0;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 1041px) {
+    .slidertext1 h1{
+        padding: 0;
+    }
+    .slidertext2 h1{
+        padding: 0;
+    }
+    .slidertext3 h1{
+        padding: 0;
+    }
+    .slidertext3 h1{
+        padding: 0;
+    }
+    
+}

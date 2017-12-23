@@ -1,0 +1,92 @@
+/****************************************/
+/* Приклад коду властивостей для header */
+/****************************************/
+
+/* Для закоментованих властивостей можна */
+/* вказати власні значення та зняти коментар */
+.container {
+    max-width: 1050px;
+}
+
+
+section {
+    padding-bottom: 50px;
+}
+    
+    #header {
+
+    background-image: url"img\slider_item_01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    text-align: left; 
+}
+
+header .row {
+    height: 100vh;  /* Приклад! Висота header завжди рівна висоті екрану пристрою */
+    justify-content: center;  /* Контейнери всередині header .row центруються по основній осі (горизонтально) */
+    align-items: center;  /* Контейнер всередині header .row центрується по поперечній осі (вертикально) */
+}
+
+.container {
+    font-family: Roboto Medium;
+    
+}
+
+.navbar-nav {
+    font-size: 16pt;
+}
+.h1, h1{
+    font-size: 160px;
+}
+
+
+.h1, h1 {
+    float: left;
+    line-height: 1;
+    margin-bottom: 100px;
+}
+
+. h1, h1 {
+    padding-left: 106px;
+}
+
+.slidertext1 {
+padding-right: 650px;
+}
+
+.slidertext2 {
+padding-right: 650px;
+}
+
+.slidertext3{
+padding-right: 650px;
+}
+
+.slidertext4 {
+padding-right: 650px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    #txt {
+    padding-top: 30%;
+    }
+}
+
+
+/* Приклад зміни відступів зверху, знизу для секцій на Small екранах */
+
+section {
+    padding: 25px 0;
+}
+
+@media screen and (max-width: 850px) and (orientation : landscape){
+    #head .row {
+       min-height: 250vh;
+    }
+}

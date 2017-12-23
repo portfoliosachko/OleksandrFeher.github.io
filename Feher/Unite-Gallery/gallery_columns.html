@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Gallery Tiles Columns template</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+    <link rel='stylesheet' href='css/unite-gallery.css' type='text/css' />
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+    <section id="portfolio">
+        <div class="container gallery-container">
+            <h2>Gallery Tiles Columns template</h2>
+            <div id="gallery" style="display:none;">
+                <a href="#">
+                    <img alt="Image1" src="gallery-images/image_001.jpg" data-image="gallery-images/image_001.jpg" data-image-mobile="gallery-gallery-images/image_001.jpg" data-thumb-mobile="gallery-images/image_001.jpg" data-description="Description for image 1" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image2" src="gallery-images/image_002.jpg" data-image="gallery-images/image_002.jpg" data-image-mobile="gallery-images/image_002.jpg" data-thumb-mobile="gallery-images/image_001.jpg" data-description="Description for image 2" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image3" src="gallery-images/image_003.jpg" data-image="gallery-images/image_003.jpg" data-image-mobile="gallery-images/image_003.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 3" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image4" src="gallery-images/image_004.jpg" data-image="gallery-images/image_004.jpg" data-image-mobile="gallery-images/image_004.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 4" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image5" src="gallery-images/image_005.jpg" data-image="gallery-images/image_005.jpg" data-image-mobile="gallery-images/image_005.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 5" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image6" src="gallery-images/image_006.jpg" data-image="gallery-images/image_006.jpg" data-image-mobile="gallery-images/image_006.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 6" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image7" src="gallery-images/image_007.jpg" data-image="gallery-images/image_007.jpg" data-image-mobile="gallery-images/image_007.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 7" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image8" src="gallery-images/image_001.jpg" data-image="gallery-images/image_001.jpg" data-image-mobile="gallery-images/image_001.jpg" data-thumb-mobile="gallery-images/image_001.jpg" data-description="Description for image 8" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image9" src="gallery-images/image_002.jpg" data-image="gallery-images/image_002.jpg" data-image-mobile="gallery-images/image_002.jpg" data-thumb-mobile="gallery-images/image_002.jpg" data-description="Description for image 9" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image10" src="gallery-images/image_003.jpg" data-image="gallery-images/image_003.jpg" data-image-mobile="gallery-images/image_003.jpg" data-thumb-mobile="gallery-images/image_003.jpg" data-description="Description for image 10" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image11" src="gallery-images/image_004.jpg" data-image="gallery-images/image_004.jpg" data-image-mobile="gallery-images/image_004.jpg" data-thumb-mobile="gallery-images/image_004.jpg" data-description="Description for image 11" style="display:none">
+                </a>
+                <a href="#">
+                    <img alt="Image12" src="gallery-images/image_005.jpg" data-image="gallery-images/image_005.jpg" data-image-mobile="gallery-images/image_005.jpg" data-thumb-mobile="gallery-images/image_005.jpg" data-description="Description for image 12" style="display:none">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+
+    <script type='text/javascript' src='js/unitegallery.min.js'></script>
+    <script type='text/javascript' src='js/ug-theme-tiles.js'></script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+
+            jQuery("#gallery").unitegallery({
+                tiles_type: "columns",
+                tiles_col_width: 200,
+                tiles_space_between_cols: 5
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

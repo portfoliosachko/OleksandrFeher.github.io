@@ -1,0 +1,54 @@
+.text h3{
+    color: #4d485b;
+}
+
+p2 {
+ font-family: PT Serif; 
+ color: #4d485b;
+ }
+
+.landing {
+ padding-left: 643px;
+}
+ 
+.row {
+    max-width: 1350px;
+    margin: 0;
+}
+
+.texth2 h2 {
+    margin-bottom: 0;
+    bottom: -26px;
+    position: relative;
+    font-size: 130px;
+    color: #4d485b;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+   float: left; 
+ }
+
+
+
+.texth2 img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+
+
+
+
+
+ 
+
+    
+
+
+    
+    
+
